@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.carconnect.ui.LoginScreen
 import com.example.carconnect.ui.MainLaunchScreen
+import com.example.carconnect.ui.RegistrationScreen
 import com.example.carconnect.ui.theme.CarConnectTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,7 +25,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    LoginScreen()
+                    RegistrationScreen()
                 }
             }
         }
